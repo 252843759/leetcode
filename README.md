@@ -1,2 +1,2 @@
 # leetcode
-the repository to save my code and thought about leetcode problem
+the repository to save my code and idea about leetcode problem
