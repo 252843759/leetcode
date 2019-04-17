@@ -1,0 +1,14 @@
+# 0 xor(exclusive or) anynumber is equal to any number
+# 1 xor anynumber is filp every bits
+# a number xor itself is equal to 0
+
+int singleNumber(int* nums, int numsSize) {
+    int res = 0;
+    int i;
+    for (i = 0; i < numsSize; ++i)
+    {
+        res ^= nums[i];
+    }
+    
+    return res;
+}
